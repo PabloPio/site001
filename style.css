@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    background-color: #2f4050;
+    color: #ffffff;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.container-principal {
+    display: flex;
+    flex: 1;
+    background-color: #ffffff;
+}
+
+.menu-lateral {
+    background-color: #364859;
+    width: 200px;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navegacao a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navegacao a:hover {
+    text-decoration: underline;
+}
+
+.galeria {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.bloco {
+    background-color: #1bbc9b;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape {
+    background-color: #2f4050;
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
